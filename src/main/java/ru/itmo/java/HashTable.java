@@ -109,7 +109,7 @@ public class HashTable {
         return size;
     }
 
-    private class Entry {
+    static class Entry {
         private Object key;
         private Object value;
         private boolean deleted;
